@@ -1,4 +1,4 @@
-# parts-assistant-hobby
+# Basic hobby project - Parts Assistant with Applied AI concepts
 A little AI-powered parts lookup bot for a made-up auto parts store, built in C#/.NET. Not a real product. just me learning how to actually build and evaluate LLM features properly instead of just vibing with a prompt and hoping for the best.
 
 ## What even is this
