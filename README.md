@@ -20,3 +20,5 @@ The gist of how it's put together
 - tools/ — the actual runnable programs that tie it all together
 
 If you do want to run, you'll need to setup some OPEN AI keys and langfuse key credentials :D
+
+<img width="1895" height="1072" alt="image" src="https://github.com/user-attachments/assets/15deb69f-2c70-4593-b23d-4392cc38b2e1" />
