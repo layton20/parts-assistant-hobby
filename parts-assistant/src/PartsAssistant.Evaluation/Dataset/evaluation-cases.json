@@ -1,0 +1,90 @@
+[
+    {
+        "id": "front-pads-not-rear-pads",
+        "question": "Do you have front brake pads for a 2017 Halden Corvid 1.6 Petrol?",
+        "category": "nearIdenticalNumber",
+        "expectedOutcome": "answer",
+        "requiredPartNumbers": [
+            "BP-1042-F"
+        ],
+        "forbiddenPartNumbers": [
+            "BP-1042-R"
+        ]
+    },
+    {
+        "id": "rear-pads-not-front-pads",
+        "question": "I need rear brake pads for a 2016 Halden Corvid 1.6 Diesel.",
+        "category": "nearIdenticalNumber",
+        "expectedOutcome": "answer",
+        "requiredPartNumbers": [
+            "BP-1042-R"
+        ],
+        "forbiddenPartNumbers": [
+            "BP-1042-F"
+        ]
+    },
+    {
+        "id": "transposed-digits-price",
+        "question": "How much is BP-1024-F?",
+        "category": "transposedDigits",
+        "expectedOutcome": "answer",
+        "requiredPartNumbers": [
+            "BP-1024-F"
+        ],
+        "forbiddenPartNumbers": [
+            "BP-1042-F",
+            "BP-1042-R"
+        ]
+    },
+    {
+        "id": "multi-hop-supersession",
+        "question": "Is FL-3000 still available?",
+        "category": "supersession",
+        "expectedOutcome": "answer",
+        "requiredPartNumbers": [
+            "FL-3002"
+        ],
+        "forbiddenPartNumbers": []
+    },
+    {
+        "id": "out-of-stock-with-alternative",
+        "question": "Do you have FL-5100 in stock for a 2018 Ridgemont Tundra 3.0 Diesel?",
+        "category": "outOfStockWithAlternative",
+        "expectedOutcome": "answer",
+        "requiredPartNumbers": [
+            "FL-5101"
+        ],
+        "forbiddenPartNumbers": []
+    },
+    {
+        "id": "spark-plug-for-diesel",
+        "question": "I need spark plugs for a 2017 Halden Corvid 1.6 Diesel.",
+        "category": "fuelTypeFitment",
+        "expectedOutcome": "answer",
+        "requiredPartNumbers": [
+            "GP-7701"
+        ],
+        "forbiddenPartNumbers": [
+            "SP-7700",
+            "SP-7070"
+        ]
+    },
+    {
+        "id": "year-outside-fitment-range",
+        "question": "Front brake pads for a 2019 Halden Corvid 2.0 Petrol, please.",
+        "category": "yearRangeFitment",
+        "expectedOutcome": "abstain",
+        "requiredPartNumbers": [],
+        "forbiddenPartNumbers": [
+            "BP-3300-F"
+        ]
+    },
+    {
+        "id": "not-in-catalogue",
+        "question": "What torque should I use on the wheel nuts for a Halden Corvid?",
+        "category": "unanswerable",
+        "expectedOutcome": "abstain",
+        "requiredPartNumbers": [],
+        "forbiddenPartNumbers": []
+    }
+]

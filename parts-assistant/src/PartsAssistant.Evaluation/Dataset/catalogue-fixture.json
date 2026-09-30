@@ -1,0 +1,275 @@
+{
+    "vehicles": [
+        {
+            "key": "corvid-16-petrol",
+            "make": "Halden",
+            "model": "Corvid",
+            "engine": "1.6 Petrol",
+            "yearFrom": 2015,
+            "yearTo": 2019
+        },
+        {
+            "key": "corvid-16-diesel",
+            "make": "Halden",
+            "model": "Corvid",
+            "engine": "1.6 Diesel",
+            "yearFrom": 2015,
+            "yearTo": 2019
+        },
+        {
+            "key": "corvid-20-petrol-2020",
+            "make": "Halden",
+            "model": "Corvid",
+            "engine": "2.0 Petrol",
+            "yearFrom": 2020,
+            "yearTo": 2024
+        },
+        {
+            "key": "stratus-14-petrol",
+            "make": "Marlow",
+            "model": "Stratus",
+            "engine": "1.4 Petrol",
+            "yearFrom": 2012,
+            "yearTo": 2018
+        },
+        {
+            "key": "tundra-30-diesel",
+            "make": "Ridgemont",
+            "model": "Tundra",
+            "engine": "3.0 Diesel",
+            "yearFrom": 2016,
+            "yearTo": 2022
+        }
+    ],
+    "parts": [
+        {
+            "partNumber": "BP-1042-F",
+            "description": "Front brake pad set",
+            "brand": "Vantex",
+            "category": "brakes",
+            "tradePriceGbp": 28.40,
+            "retailPriceGbp": 38.34,
+            "stockQuantity": 14,
+            "isDiscontinued": false,
+            "supersededByPartNumber": null,
+            "fitsVehicleKeys": [
+                "corvid-16-petrol",
+                "corvid-16-diesel"
+            ]
+        },
+        {
+            "partNumber": "BP-1042-R",
+            "description": "Rear brake pad set",
+            "brand": "Vantex",
+            "category": "brakes",
+            "tradePriceGbp": 21.90,
+            "retailPriceGbp": 29.57,
+            "stockQuantity": 9,
+            "isDiscontinued": false,
+            "supersededByPartNumber": null,
+            "fitsVehicleKeys": [
+                "corvid-16-petrol",
+                "corvid-16-diesel"
+            ]
+        },
+        {
+            "partNumber": "BP-1024-F",
+            "description": "Front brake pad set",
+            "brand": "Vantex",
+            "category": "brakes",
+            "tradePriceGbp": 31.75,
+            "retailPriceGbp": 42.86,
+            "stockQuantity": 6,
+            "isDiscontinued": false,
+            "supersededByPartNumber": null,
+            "fitsVehicleKeys": [
+                "stratus-14-petrol"
+            ]
+        },
+        {
+            "partNumber": "BP-2200-F",
+            "description": "Front brake pad set",
+            "brand": "Ridgeline",
+            "category": "brakes",
+            "tradePriceGbp": 24.10,
+            "retailPriceGbp": 32.54,
+            "stockQuantity": 3,
+            "isDiscontinued": true,
+            "supersededByPartNumber": "BP-2201-F",
+            "fitsVehicleKeys": [
+                "stratus-14-petrol"
+            ]
+        },
+        {
+            "partNumber": "BP-2201-F",
+            "description": "Front brake pad set",
+            "brand": "Ridgeline",
+            "category": "brakes",
+            "tradePriceGbp": 27.60,
+            "retailPriceGbp": 37.26,
+            "stockQuantity": 22,
+            "isDiscontinued": false,
+            "supersededByPartNumber": null,
+            "fitsVehicleKeys": [
+                "stratus-14-petrol"
+            ]
+        },
+        {
+            "partNumber": "BP-3300-F",
+            "description": "Front brake pad set",
+            "brand": "Vantex",
+            "category": "brakes",
+            "tradePriceGbp": 34.20,
+            "retailPriceGbp": 46.17,
+            "stockQuantity": 11,
+            "isDiscontinued": false,
+            "supersededByPartNumber": null,
+            "fitsVehicleKeys": [
+                "corvid-20-petrol-2020"
+            ]
+        },
+        {
+            "partNumber": "FL-3000",
+            "description": "Oil filter",
+            "brand": "Corvane",
+            "category": "filters",
+            "tradePriceGbp": 6.20,
+            "retailPriceGbp": 8.37,
+            "stockQuantity": 0,
+            "isDiscontinued": true,
+            "supersededByPartNumber": "FL-3001",
+            "fitsVehicleKeys": [
+                "corvid-16-petrol"
+            ]
+        },
+        {
+            "partNumber": "FL-3001",
+            "description": "Oil filter",
+            "brand": "Corvane",
+            "category": "filters",
+            "tradePriceGbp": 6.85,
+            "retailPriceGbp": 9.25,
+            "stockQuantity": 0,
+            "isDiscontinued": true,
+            "supersededByPartNumber": "FL-3002",
+            "fitsVehicleKeys": [
+                "corvid-16-petrol"
+            ]
+        },
+        {
+            "partNumber": "FL-3002",
+            "description": "Oil filter",
+            "brand": "Corvane",
+            "category": "filters",
+            "tradePriceGbp": 7.40,
+            "retailPriceGbp": 9.99,
+            "stockQuantity": 48,
+            "isDiscontinued": false,
+            "supersededByPartNumber": null,
+            "fitsVehicleKeys": [
+                "corvid-16-petrol"
+            ]
+        },
+        {
+            "partNumber": "FL-5100",
+            "description": "Oil filter",
+            "brand": "Vantex",
+            "category": "filters",
+            "tradePriceGbp": 8.10,
+            "retailPriceGbp": 10.94,
+            "stockQuantity": 0,
+            "isDiscontinued": false,
+            "supersededByPartNumber": null,
+            "fitsVehicleKeys": [
+                "tundra-30-diesel"
+            ]
+        },
+        {
+            "partNumber": "FL-5101",
+            "description": "Oil filter",
+            "brand": "Corvane",
+            "category": "filters",
+            "tradePriceGbp": 8.35,
+            "retailPriceGbp": 11.27,
+            "stockQuantity": 31,
+            "isDiscontinued": false,
+            "supersededByPartNumber": null,
+            "fitsVehicleKeys": [
+                "tundra-30-diesel"
+            ]
+        },
+        {
+            "partNumber": "SP-7700",
+            "description": "Spark plug",
+            "brand": "Ridgeline",
+            "category": "ignition",
+            "tradePriceGbp": 4.90,
+            "retailPriceGbp": 6.62,
+            "stockQuantity": 120,
+            "isDiscontinued": false,
+            "supersededByPartNumber": null,
+            "fitsVehicleKeys": [
+                "corvid-16-petrol",
+                "stratus-14-petrol"
+            ]
+        },
+        {
+            "partNumber": "SP-7070",
+            "description": "Spark plug",
+            "brand": "Ridgeline",
+            "category": "ignition",
+            "tradePriceGbp": 5.40,
+            "retailPriceGbp": 7.29,
+            "stockQuantity": 64,
+            "isDiscontinued": false,
+            "supersededByPartNumber": null,
+            "fitsVehicleKeys": [
+                "corvid-20-petrol-2020"
+            ]
+        },
+        {
+            "partNumber": "GP-7701",
+            "description": "Glow plug",
+            "brand": "Ridgeline",
+            "category": "ignition",
+            "tradePriceGbp": 9.30,
+            "retailPriceGbp": 12.56,
+            "stockQuantity": 40,
+            "isDiscontinued": false,
+            "supersededByPartNumber": null,
+            "fitsVehicleKeys": [
+                "corvid-16-diesel",
+                "tundra-30-diesel"
+            ]
+        },
+        {
+            "partNumber": "BA-4400",
+            "description": "12V battery 60Ah",
+            "brand": "Vantex",
+            "category": "batteries",
+            "tradePriceGbp": 64.00,
+            "retailPriceGbp": 86.40,
+            "stockQuantity": 0,
+            "isDiscontinued": false,
+            "supersededByPartNumber": null,
+            "fitsVehicleKeys": [
+                "stratus-14-petrol"
+            ]
+        },
+        {
+            "partNumber": "LT-6100",
+            "description": "Headlamp bulb",
+            "brand": "Corvane",
+            "category": "lighting",
+            "tradePriceGbp": 3.20,
+            "retailPriceGbp": 4.32,
+            "stockQuantity": 5,
+            "isDiscontinued": true,
+            "supersededByPartNumber": null,
+            "fitsVehicleKeys": [
+                "corvid-16-petrol",
+                "corvid-16-diesel"
+            ]
+        }
+    ]
+}

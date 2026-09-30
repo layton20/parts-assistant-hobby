@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\PartsAssistant.Langfuse\PartsAssistant.Langfuse.csproj" />
+    <ProjectReference Include="..\..\src\PartsAssistant.Evaluation\PartsAssistant.Evaluation.csproj" />
+    <ProjectReference Include="..\..\src\PartsAssistant.Assistant\PartsAssistant.Assistant.csproj" />
+    <ProjectReference Include="..\..\src\PartsAssistant.OpenAi\PartsAssistant.OpenAi.csproj" />
+    <ProjectReference Include="..\..\src\PartsAssistant.MicrosoftEval\PartsAssistant.MicrosoftEval.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenTelemetry" Version="1.19.1" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

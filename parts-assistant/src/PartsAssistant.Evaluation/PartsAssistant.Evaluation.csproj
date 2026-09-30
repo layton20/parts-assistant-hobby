@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\PartsAssistant.Domain\PartsAssistant.Domain.csproj" />
+    <ProjectReference Include="..\PartsAssistant.Assistant\PartsAssistant.Assistant.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Dataset\*.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
